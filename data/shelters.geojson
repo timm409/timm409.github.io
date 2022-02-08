@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "shelters",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 126.555552639000098, 33.369796197000028, 0.0 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 126.530564885000103, 33.37685672200007, 0.0 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 126.517696773000011, 33.362052332000076, 0.0 ] } }
+]
+}
