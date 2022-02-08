@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>Wildlife Distribution Hallasan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	<!-- Icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+	<!-- OpenLayers CSS -->
+	<link rel="stylesheet" href="openlayers/ol.css" type="text/css">
+	<!-- Third Party Layer Switcher CSS -->
+	<link rel="stylesheet" href="ol-layerswitcher/ol-layerswitcher.css" />
+	<!-- User CSS -->
+	<link rel="stylesheet" type="text/css" href="css/css1.css">
+	
+</head>
+
+<body>
+
+<!-- Top Menu Bar -->
+<div class="topnav">
+  <a href="index.html"><i class="fa fa-fw fa-home"></i></a>
+  <a href="trails.html">Trails</a>
+  <a class="active" href="wildlife.html">Wildlife</a>
+  <a href="info.html">Info</a></li>
+  
+  <div class="topnav-right">
+    <a href="mailto:info@hallasan.com"><i class="fa fa-fw fa-envelope"></i></a>
+  </div>
+</div>
+
+<!-- Website Section -->
+
+<body onload="initMap();">
+
+	<div class="container-fluid">
+	
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="page-header">
+					<h1>Map of Wildlife Distribution in Hallasan National Park</h1>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="well">
+					<p>Due to the the altitude changes the park features three biomes: subtropical, mesic forest, and subalpine.
+					The park has 2 main mammal species: the invasive roe deer and wild boar. The map below shows the 
+					biomes and the locations spotted by the park rangers of the mammals in the years 2000 and 2010.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="well well-sm">
+				
+					<!-- Section with Map -->
+					<div id="mymap"></div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="well">
+
+					<!-- Section with Legend -->
+					<img class="img-responsive" src="images\wildlegend.jpg" style="width: 100%">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<!-- OpenLayers JS-->
+	<script src="openlayers/ol.js" type="text/javascript"></script>
+	<!-- Map JS -->
+	<script type="text/javascript" src="js/wildmap.js"></script>
+	<!-- Third party JS for layer switcher -->
+	<script src="ol-layerswitcher/ol-layerswitcher.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Info</title>
+	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous"/>
+	<!-- Openlayers CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css"/>
+	<!-- User CSS -->
+	<link rel="stylesheet" type="text/css" href="css/css1.css"/>
+	<!-- Third Party Layer Switcher CSS -->
+	<link rel="stylesheet" href="ol-layerswitcher/ol-layerswitcher.css" />
+
+</head>
+
+<body>
+
+<!-- Top Menu Bar -->
+<div class="topnav">
+  <a href="index.html"><i class="fa fa-fw fa-home"></i></a>
+  <a href="trails.html">Trails</a>
+  <a href="wildlife.html">Wildlife</a>
+  <a class="active" href="info.html">Info</a></li>
+  
+  <div class="topnav-right">
+    <a href="mailto:info@hallasan.com"><i class="fa fa-fw fa-envelope"></i></a>
+  </div>
+</div>
+
+<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="page-header">
+					<h1>Information</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="well well-sm">
+					
+					<!-- Visual Crossing Weather Widget -->
+					<div class="weatherWidget"></div>
+				</div>
+			</div>
+			<div class="col-sm-7">
+				<div class="well well-sm">
+					<h3 class="black">Hallasan Conditions</h3>
+					
+					<!-- Date in Korea and map with current weather conditions from OpenWeatherMap -->
+					<p id="date"></p> 
+					<p id="datek"></p>
+					<div id="map" style="height: 400px; border: solid; border-color: gray; border-width: 1px;"></div>
+					<div id="popup" class="ol-popup">
+					<a href="#" id="popup-closer" class="ol-popup-closer"></a>
+					<div id="popup-content"></div>
+					</div>
+				</div>
+			</div>
+				
+			<div class="col-sm-5">
+				<div class="well well-sm">
+				
+					<!-- Safety Section -->
+					<h3 class="black">Safety</h3>
+					<p>A link to safety information for hikers in Jeju Province can be found <a href="https://www.jejuolle.org/trail/eng/board/board_view.asp?fk_idx=8&search_idx=6940"<strong>here.</strong></a>
+					Please be prepared for the conditions. Hover over the image below to see the crater in winter.
+					</p>
+					<img id="image" src="images/summer.jpg" onmouseover="moveon()" onmouseout="moveoff()"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- OpenLayers JS -->
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+	<!-- Third party JS for layer switcher -->
+	<script src="ol-layerswitcher/ol-layerswitcher.js"></script>
+	<!-- Weather Map JS -->
+    <script type="text/javascript" src="js/weathermap.js"></script>
+	<!-- Weather JS -->
+	<script type="text/javascript" src="js/weather.js"></script>
+	<!-- Move Image JS -->
+	<script type="text/javascript" src="js/moveimage.js"></script>
+	<!-- Date and Time JS -->
+	<script type="text/javascript" src="js/datetimekorea.js"></script>
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	
+</body>
+</html>
