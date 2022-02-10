@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>RM 2.0</title>
+	<title>Salad Tron</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
@@ -20,9 +20,9 @@
 <!-- Top Menu Bar -->
 <div class="topnav">
   <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i></a>
-  <a href="trails.html">Blog</a>
-  <a href="wildlife.html">Experience</a>
-  <a href="contact.html">Contact</a></li>
+  <a href="trails.html">Trails</a>
+  <a href="wildlife.html">Wildlife</a>
+  <a href="info.html">Info</a></li>
 
   <div class="topnav-right">
     <a href="mailto:raph95@hotmail.co.uk"><i class="fa fa-fw fa-envelope"></i></a>
@@ -30,15 +30,16 @@
 </div>
 
 <div class="jumbotron text-center">
-	<h1>RM 2.0</h1>
+	<h1>Salad Tron</h1>
 </div>
 
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-sm-3">
 			<div class="well">
-			<p>This is a website about <strong>RM</strong></a> I am currently an ESL teacher in South Korea.
-			My LinkedIn is available <a href="www.linkedin.com/in/raphaelmartin10"><strong>here</strong></a></p>
+			<p>This is a website with information regarding the <a href="https://en.wikipedia.org/wiki/Hallasan_National_Park">
+			<strong>Hallasan National Park</strong></a> in South Korea. The website has pages for hiking trails, wildlife as well as other useful information.
+			The park is located on Jeju Island and features the highest mountain in South Korea, the shield volcano Hallasan.</p>
 			</div>
 		</div>
 
